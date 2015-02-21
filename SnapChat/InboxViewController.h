@@ -10,4 +10,7 @@
 
 @interface InboxViewController : UITableViewController
 
+- (IBAction)logoutButton:(UIBarButtonItem *)sender;
+
+
 @end

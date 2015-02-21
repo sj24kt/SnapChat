@@ -9,11 +9,31 @@
 /* Begin PBXBuildFile section */
 		18E0442C1A968384005B0621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0442B1A968384005B0621 /* main.m */; };
 		18E0442F1A968384005B0621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0442E1A968384005B0621 /* AppDelegate.m */; };
-		18E044321A968384005B0621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E044311A968384005B0621 /* ViewController.m */; };
 		18E044351A968384005B0621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E044331A968384005B0621 /* Main.storyboard */; };
 		18E044371A968384005B0621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E044361A968384005B0621 /* Images.xcassets */; };
 		18E0443A1A968384005B0621 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E044381A968384005B0621 /* LaunchScreen.xib */; };
 		18E044461A968384005B0621 /* SnapChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E044451A968384005B0621 /* SnapChatTests.m */; };
+		18E044511A969B7A005B0621 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E044501A969B7A005B0621 /* InboxViewController.m */; };
+		18E044891A96AE5D005B0621 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E044881A96AE5D005B0621 /* LoginViewController.m */; };
+		18E0448C1A96AE6F005B0621 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0448B1A96AE6F005B0621 /* SignupViewController.m */; };
+		18E0448E1A97A2D9005B0621 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0448D1A97A2D9005B0621 /* Parse.framework */; };
+		18E044911A97A330005B0621 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044901A97A330005B0621 /* Bolts.framework */; };
+		18E044951A97A348005B0621 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044921A97A348005B0621 /* ParseCrashReporting.framework */; };
+		18E044961A97A348005B0621 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044931A97A348005B0621 /* ParseFacebookUtils.framework */; };
+		18E044971A97A348005B0621 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044941A97A348005B0621 /* ParseUI.framework */; };
+		18E044991A97A3CE005B0621 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044981A97A3CE005B0621 /* AudioToolbox.framework */; };
+		18E0449B1A97A3D7005B0621 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0449A1A97A3D7005B0621 /* CFNetwork.framework */; };
+		18E0449D1A97A3E3005B0621 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0449C1A97A3E3005B0621 /* CoreGraphics.framework */; };
+		18E0449F1A97A403005B0621 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0449E1A97A403005B0621 /* libz.1.1.3.dylib */; };
+		18E044A51A97A42C005B0621 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044A01A97A42C005B0621 /* MobileCoreServices.framework */; };
+		18E044A61A97A42C005B0621 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044A11A97A42C005B0621 /* QuartzCore.framework */; };
+		18E044A71A97A42C005B0621 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044A21A97A42C005B0621 /* Security.framework */; };
+		18E044A81A97A42C005B0621 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044A31A97A42C005B0621 /* StoreKit.framework */; };
+		18E044A91A97A42C005B0621 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044A41A97A42C005B0621 /* SystemConfiguration.framework */; };
+		18E044AB1A97A456005B0621 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E044AA1A97A456005B0621 /* libsqlite3.dylib */; };
+		18E044AE1A97DFED005B0621 /* EditFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E044AD1A97DFED005B0621 /* EditFriendsViewController.m */; };
+		18E044B31A991D8F005B0621 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E044B21A991D8F005B0621 /* FriendsViewController.m */; };
+		18FBAAFD1A99261A00D98B2A /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBAAFC1A99261A00D98B2A /* CameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +52,39 @@
 		18E0442B1A968384005B0621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E0442D1A968384005B0621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18E0442E1A968384005B0621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18E044301A968384005B0621 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18E044311A968384005B0621 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18E044341A968384005B0621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E044361A968384005B0621 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18E044391A968384005B0621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18E0443F1A968384005B0621 /* SnapChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E044441A968384005B0621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E044451A968384005B0621 /* SnapChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnapChatTests.m; sourceTree = "<group>"; };
+		18E0444F1A969B7A005B0621 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		18E044501A969B7A005B0621 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		18E044871A96AE5D005B0621 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		18E044881A96AE5D005B0621 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		18E0448A1A96AE6F005B0621 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		18E0448B1A96AE6F005B0621 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		18E0448D1A97A2D9005B0621 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		18E044901A97A330005B0621 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		18E044921A97A348005B0621 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		18E044931A97A348005B0621 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		18E044941A97A348005B0621 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		18E044981A97A3CE005B0621 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18E0449A1A97A3D7005B0621 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18E0449C1A97A3E3005B0621 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18E0449E1A97A403005B0621 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		18E044A01A97A42C005B0621 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18E044A11A97A42C005B0621 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18E044A21A97A42C005B0621 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18E044A31A97A42C005B0621 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		18E044A41A97A42C005B0621 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18E044AA1A97A456005B0621 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		18E044AC1A97DFED005B0621 /* EditFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditFriendsViewController.h; sourceTree = "<group>"; };
+		18E044AD1A97DFED005B0621 /* EditFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditFriendsViewController.m; sourceTree = "<group>"; };
+		18E044AF1A98F102005B0621 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		18E044B21A991D8F005B0621 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		18FBAAFB1A99261A00D98B2A /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		18FBAAFC1A99261A00D98B2A /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +92,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E044AB1A97A456005B0621 /* libsqlite3.dylib in Frameworks */,
+				18E044A51A97A42C005B0621 /* MobileCoreServices.framework in Frameworks */,
+				18E044A61A97A42C005B0621 /* QuartzCore.framework in Frameworks */,
+				18E044A71A97A42C005B0621 /* Security.framework in Frameworks */,
+				18E044A81A97A42C005B0621 /* StoreKit.framework in Frameworks */,
+				18E044A91A97A42C005B0621 /* SystemConfiguration.framework in Frameworks */,
+				18E0449F1A97A403005B0621 /* libz.1.1.3.dylib in Frameworks */,
+				18E0449D1A97A3E3005B0621 /* CoreGraphics.framework in Frameworks */,
+				18E0449B1A97A3D7005B0621 /* CFNetwork.framework in Frameworks */,
+				18E044991A97A3CE005B0621 /* AudioToolbox.framework in Frameworks */,
+				18E0448E1A97A2D9005B0621 /* Parse.framework in Frameworks */,
+				18E044951A97A348005B0621 /* ParseCrashReporting.framework in Frameworks */,
+				18E044971A97A348005B0621 /* ParseUI.framework in Frameworks */,
+				18E044961A97A348005B0621 /* ParseFacebookUtils.framework in Frameworks */,
+				18E044911A97A330005B0621 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,11 +143,22 @@
 			children = (
 				18E0442D1A968384005B0621 /* AppDelegate.h */,
 				18E0442E1A968384005B0621 /* AppDelegate.m */,
-				18E044301A968384005B0621 /* ViewController.h */,
-				18E044311A968384005B0621 /* ViewController.m */,
+				18E0444F1A969B7A005B0621 /* InboxViewController.h */,
+				18E044501A969B7A005B0621 /* InboxViewController.m */,
+				18E044871A96AE5D005B0621 /* LoginViewController.h */,
+				18E044881A96AE5D005B0621 /* LoginViewController.m */,
+				18E0448A1A96AE6F005B0621 /* SignupViewController.h */,
+				18E0448B1A96AE6F005B0621 /* SignupViewController.m */,
+				18E044AF1A98F102005B0621 /* FriendsViewController.h */,
+				18E044B21A991D8F005B0621 /* FriendsViewController.m */,
+				18E044AC1A97DFED005B0621 /* EditFriendsViewController.h */,
+				18E044AD1A97DFED005B0621 /* EditFriendsViewController.m */,
+				18FBAAFB1A99261A00D98B2A /* CameraViewController.h */,
+				18FBAAFC1A99261A00D98B2A /* CameraViewController.m */,
 				18E044331A968384005B0621 /* Main.storyboard */,
 				18E044361A968384005B0621 /* Images.xcassets */,
 				18E044381A968384005B0621 /* LaunchScreen.xib */,
+				18E0448F1A97A2F2005B0621 /* Frameworks */,
 				18E044291A968384005B0621 /* Supporting Files */,
 			);
 			path = SnapChat;
@@ -117,6 +188,28 @@
 				18E044441A968384005B0621 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E0448F1A97A2F2005B0621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E044AA1A97A456005B0621 /* libsqlite3.dylib */,
+				18E044A01A97A42C005B0621 /* MobileCoreServices.framework */,
+				18E044A11A97A42C005B0621 /* QuartzCore.framework */,
+				18E044A21A97A42C005B0621 /* Security.framework */,
+				18E044A31A97A42C005B0621 /* StoreKit.framework */,
+				18E044A41A97A42C005B0621 /* SystemConfiguration.framework */,
+				18E0449E1A97A403005B0621 /* libz.1.1.3.dylib */,
+				18E0449C1A97A3E3005B0621 /* CoreGraphics.framework */,
+				18E0449A1A97A3D7005B0621 /* CFNetwork.framework */,
+				18E044981A97A3CE005B0621 /* AudioToolbox.framework */,
+				18E044921A97A348005B0621 /* ParseCrashReporting.framework */,
+				18E044931A97A348005B0621 /* ParseFacebookUtils.framework */,
+				18E044941A97A348005B0621 /* ParseUI.framework */,
+				18E044901A97A330005B0621 /* Bolts.framework */,
+				18E0448D1A97A2D9005B0621 /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E044321A968384005B0621 /* ViewController.m in Sources */,
+				18E044891A96AE5D005B0621 /* LoginViewController.m in Sources */,
+				18FBAAFD1A99261A00D98B2A /* CameraViewController.m in Sources */,
 				18E0442F1A968384005B0621 /* AppDelegate.m in Sources */,
+				18E044B31A991D8F005B0621 /* FriendsViewController.m in Sources */,
+				18E044AE1A97DFED005B0621 /* EditFriendsViewController.m in Sources */,
 				18E0442C1A968384005B0621 /* main.m in Sources */,
+				18E044511A969B7A005B0621 /* InboxViewController.m in Sources */,
+				18E0448C1A96AE6F005B0621 /* SignupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +441,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SnapChat",
+				);
 				INFOPLIST_FILE = SnapChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +456,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SnapChat",
+				);
 				INFOPLIST_FILE = SnapChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +520,7 @@
 				18E0444B1A968384005B0621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E0444C1A968384005B0621 /* Build configuration list for PBXNativeTarget "SnapChatTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +529,7 @@
 				18E0444E1A968384005B0621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
