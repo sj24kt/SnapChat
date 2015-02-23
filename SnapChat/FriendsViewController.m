@@ -18,13 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // set the friendsRelation by getting the currentUsers relationship in Parse
+    self.friendsRelation = [[PFUser currentUser] objectForKey:@"friendsRelation"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-
-    // set the friendsRelation by getting the currentUsers relationship in Parse
-    self.friendsRelation = [[PFUser currentUser] objectForKey:@"friendsRelation"];
 
     // get a list of all friends checked & stored in an array
     PFQuery *query = [self.friendsRelation query];

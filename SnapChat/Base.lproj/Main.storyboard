@@ -308,7 +308,7 @@
             </objects>
             <point key="canvasLocation" x="2106" y="40"/>
         </scene>
-        <!--Camera-->
+        <!--Recipients-->
         <scene sceneID="Fqg-ow-wSU">
             <objects>
                 <tableViewController id="Q69-ro-HDl" customClass="CameraViewController" sceneMemberID="viewController">
@@ -317,7 +317,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="pU4-ZH-dgR">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="0.0" reuseIdentifier="Cell" id="pU4-ZH-dgR">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pU4-ZH-dgR" id="xZj-K6-3DN">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -329,7 +329,20 @@
                             <outlet property="delegate" destination="Q69-ro-HDl" id="RGc-io-I8H"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Camera" id="Zhy-cy-okx"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Recipients" id="Zhy-cy-okx">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="5j8-Cg-Wjo">
+                            <connections>
+                                <action selector="cancel:" destination="Q69-ro-HDl" id="Z0W-4G-Ckf"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Send" id="A3f-yW-AaL">
+                            <connections>
+                                <action selector="send:" destination="Q69-ro-HDl" id="qdF-CE-KyK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9gH-aZ-IeO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
