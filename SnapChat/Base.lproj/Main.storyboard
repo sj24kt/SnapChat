@@ -36,11 +36,71 @@
                     </navigationItem>
                     <connections>
                         <segue destination="5nV-7J-W9v" kind="show" identifier="showLogin" id="Yc2-vm-Dqh"/>
+                        <segue destination="HgP-Nz-K5u" kind="show" identifier="showImage" id="JSf-CQ-CwR"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8up-wP-3uM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1393.5" y="-616"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="mL1-zC-Md4">
+            <objects>
+                <viewController id="HgP-Nz-K5u" customClass="ImageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6QR-Hx-25U"/>
+                        <viewControllerLayoutGuide type="bottom" id="KSL-J0-Wsm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e43-3w-ypE">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Bc-bw-gbX">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1Bc-bw-gbX" firstAttribute="top" secondItem="6QR-Hx-25U" secondAttribute="bottom" id="G8H-H6-4eU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Bc-bw-gbX" secondAttribute="trailing" constant="-16" id="MUW-RD-hqx"/>
+                            <constraint firstItem="1Bc-bw-gbX" firstAttribute="bottom" secondItem="e43-3w-ypE" secondAttribute="bottomMargin" id="O7W-Ic-rVI"/>
+                            <constraint firstItem="1Bc-bw-gbX" firstAttribute="leading" secondItem="e43-3w-ypE" secondAttribute="leadingMargin" constant="-16" id="QIH-yp-LrC"/>
+                            <constraint firstAttribute="trailing" secondItem="1Bc-bw-gbX" secondAttribute="trailing" id="dZf-5e-mNH"/>
+                            <constraint firstItem="1Bc-bw-gbX" firstAttribute="leading" secondItem="e43-3w-ypE" secondAttribute="leading" id="jyw-aR-443"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1Bc-bw-gbX"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="G8H-H6-4eU"/>
+                                <exclude reference="MUW-RD-hqx"/>
+                                <exclude reference="O7W-Ic-rVI"/>
+                                <exclude reference="QIH-yp-LrC"/>
+                                <exclude reference="dZf-5e-mNH"/>
+                                <exclude reference="jyw-aR-443"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1Bc-bw-gbX"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="G8H-H6-4eU"/>
+                                <exclude reference="MUW-RD-hqx"/>
+                                <include reference="O7W-Ic-rVI"/>
+                                <exclude reference="QIH-yp-LrC"/>
+                                <include reference="dZf-5e-mNH"/>
+                                <include reference="jyw-aR-443"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="1Bc-bw-gbX" id="d7G-Ym-UuF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eKb-gs-Jzx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2163" y="-1279"/>
         </scene>
         <!--Log In-->
         <scene sceneID="2U8-6q-mO2">
@@ -247,7 +307,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CT2-Bv-MHv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2106" y="-616"/>
+            <point key="canvasLocation" x="2163" y="-616"/>
         </scene>
         <!--Friends-->
         <scene sceneID="GGT-Lf-kfY">
@@ -306,7 +366,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ADf-jA-V23" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2106" y="40"/>
+            <point key="canvasLocation" x="2163" y="40"/>
         </scene>
         <!--Recipients-->
         <scene sceneID="Fqg-ow-wSU">
@@ -533,7 +593,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="738-xx-h7P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2853" y="-616"/>
+            <point key="canvasLocation" x="2874" y="-616"/>
         </scene>
         <!--SnapChat-->
         <scene sceneID="GRM-tG-oK5">

@@ -34,6 +34,10 @@
 		18E044AE1A97DFED005B0621 /* EditFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E044AD1A97DFED005B0621 /* EditFriendsViewController.m */; };
 		18E044B31A991D8F005B0621 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E044B21A991D8F005B0621 /* FriendsViewController.m */; };
 		18FBAAFD1A99261A00D98B2A /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBAAFC1A99261A00D98B2A /* CameraViewController.m */; };
+		18FBAB001A9BB38A00D98B2A /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FBAAFF1A9BB38A00D98B2A /* ImageViewController.m */; };
+		18FBAB021A9C09B900D98B2A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FBAB011A9C09B900D98B2A /* MediaPlayer.framework */; };
+		18FBAB051A9C0E0C00D98B2A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FBAB031A9C0E0C00D98B2A /* AVFoundation.framework */; };
+		18FBAB061A9C0E0C00D98B2A /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FBAB041A9C0E0C00D98B2A /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +89,11 @@
 		18E044B21A991D8F005B0621 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
 		18FBAAFB1A99261A00D98B2A /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		18FBAAFC1A99261A00D98B2A /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		18FBAAFE1A9BB38A00D98B2A /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		18FBAAFF1A9BB38A00D98B2A /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		18FBAB011A9C09B900D98B2A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		18FBAB031A9C0E0C00D98B2A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18FBAB041A9C0E0C00D98B2A /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FBAB051A9C0E0C00D98B2A /* AVFoundation.framework in Frameworks */,
+				18FBAB061A9C0E0C00D98B2A /* AVKit.framework in Frameworks */,
+				18FBAB021A9C09B900D98B2A /* MediaPlayer.framework in Frameworks */,
 				18E044AB1A97A456005B0621 /* libsqlite3.dylib in Frameworks */,
 				18E044A51A97A42C005B0621 /* MobileCoreServices.framework in Frameworks */,
 				18E044A61A97A42C005B0621 /* QuartzCore.framework in Frameworks */,
@@ -145,6 +157,8 @@
 				18E0442E1A968384005B0621 /* AppDelegate.m */,
 				18E0444F1A969B7A005B0621 /* InboxViewController.h */,
 				18E044501A969B7A005B0621 /* InboxViewController.m */,
+				18FBAAFE1A9BB38A00D98B2A /* ImageViewController.h */,
+				18FBAAFF1A9BB38A00D98B2A /* ImageViewController.m */,
 				18E044871A96AE5D005B0621 /* LoginViewController.h */,
 				18E044881A96AE5D005B0621 /* LoginViewController.m */,
 				18E0448A1A96AE6F005B0621 /* SignupViewController.h */,
@@ -193,6 +207,9 @@
 		18E0448F1A97A2F2005B0621 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18FBAB031A9C0E0C00D98B2A /* AVFoundation.framework */,
+				18FBAB041A9C0E0C00D98B2A /* AVKit.framework */,
+				18FBAB011A9C09B900D98B2A /* MediaPlayer.framework */,
 				18E044AA1A97A456005B0621 /* libsqlite3.dylib */,
 				18E044A01A97A42C005B0621 /* MobileCoreServices.framework */,
 				18E044A11A97A42C005B0621 /* QuartzCore.framework */,
@@ -318,6 +335,7 @@
 				18E044B31A991D8F005B0621 /* FriendsViewController.m in Sources */,
 				18E044AE1A97DFED005B0621 /* EditFriendsViewController.m in Sources */,
 				18E0442C1A968384005B0621 /* main.m in Sources */,
+				18FBAB001A9BB38A00D98B2A /* ImageViewController.m in Sources */,
 				18E044511A969B7A005B0621 /* InboxViewController.m in Sources */,
 				18E0448C1A96AE6F005B0621 /* SignupViewController.m in Sources */,
 			);

@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface InboxViewController : UITableViewController
+
+@property (strong, nonatomic) NSArray *messages;
+@property (strong, nonatomic) PFObject *selectedMessages;
+@property (strong, nonatomic) MPMoviePlayerController *moviePlayer;
 
 - (IBAction)logoutButton:(UIBarButtonItem *)sender;
 
